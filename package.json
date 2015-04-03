@@ -1,0 +1,17 @@
+{
+  "name": "emailman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index",
+    "install": "node-gyp rebuild"
+  },
+  "author": "Nick Martin",
+  "license": "MIT",
+  "gypfile": true,
+   "dependencies": {
+    "bindings": "^1.2.1",
+    "nan": "^1.2.0"
+  }
+}
